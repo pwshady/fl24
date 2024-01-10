@@ -1,0 +1,20 @@
+{
+    "name": "fl/fl",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Aleksey Lebedev",
+            "email": "aniks@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "fl\\": "vendor/fl",
+            "app\\": "app",
+            "traits\\": "vendor/fl/traits"
+        }
+    },
+    "require": {}
+}
