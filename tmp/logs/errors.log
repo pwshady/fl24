@@ -1,0 +1,14 @@
+[2024-01-10 15:01:55] Code: 0 | Message: Class "fl\Registry" not found | File: /opt/lampp/htdocs/fl24/vendor/fl/App.php | Line: 14
+[2024-01-10 17:42:22] Code: 1 | Message: Trait "fl\traits\TSingleton" not found | File: /opt/lampp/htdocs/fl24/vendor/fl/Registry.php | Line: 5
+[2024-01-10 17:47:57] Code: 0 | Message: Class "fl\Router" not found | File: /opt/lampp/htdocs/fl24/vendor/fl/App.php | Line: 15
+[2024-01-10 17:48:49] Code: 0 | Message: Call to undefined method fl\Router::removeQueryString() | File: /opt/lampp/htdocs/fl24/vendor/fl/Router.php | Line: 14
+[2024-01-10 20:42:43] Code: 0 | Message: Call to undefined method fl\Registry::setUrl() | File: /opt/lampp/htdocs/fl24/vendor/fl/Router.php | Line: 55
+[2024-01-10 20:58:59] Code: 0 | Message: fl\Router::removeQueryString(): Return value must be of type int, none returned | File: /opt/lampp/htdocs/fl24/vendor/fl/Router.php | Line: 44
+[2024-01-10 21:03:52] Code: 0 | Message: Call to undefined method fl\Router::getLandLang() | File: /opt/lampp/htdocs/fl24/vendor/fl/Router.php | Line: 21
+[2024-01-10 21:04:25] Code: 0 | Message: Call to undefined method fl\Router::setLanguage() | File: /opt/lampp/htdocs/fl24/vendor/fl/Router.php | Line: 71
+[2024-01-10 21:05:50] Code: 0 | Message: Call to undefined method fl\Router::setLanguage() | File: /opt/lampp/htdocs/fl24/vendor/fl/Router.php | Line: 71
+[2024-01-10 21:07:54] Code: 0 | Message: Call to undefined method fl\Registry::setLanguage() | File: /opt/lampp/htdocs/fl24/vendor/fl/Router.php | Line: 103
+[2024-01-10 21:14:27] Code: 0 | Message: Call to undefined method fl\Registry::setLanguage() | File: /opt/lampp/htdocs/fl24/vendor/fl/Router.php | Line: 103
+[2024-01-10 21:15:46] Code: 0 | Message: Call to undefined method fl\Registry::setLanguage() | File: /opt/lampp/htdocs/fl24/vendor/fl/Router.php | Line: 103
+[2024-01-10 21:19:31] Code: 0 | Message: Cannot assign array to property fl\Registry::$language of type string | File: /opt/lampp/htdocs/fl24/vendor/fl/Registry.php | Line: 45
+[2024-01-10 21:20:01] Code: 0 | Message: Cannot assign array to property fl\Registry::$language of type string | File: /opt/lampp/htdocs/fl24/vendor/fl/Registry.php | Line: 45
