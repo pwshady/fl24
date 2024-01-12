@@ -20,6 +20,7 @@ class Router
         if (file_exists(ROOT . '/app/landlang.json')){
             self::getLandLang();
         }
+        App::$app->setGet(self::$get);
         self::run();
     }
 
@@ -250,7 +251,7 @@ class Router
     {
         echo '3';
         die;
-        App::$app->setGet(self::$get);
+
         $controller = new basic\controllers\PageController('/app/pages', self::$page_arr, []);
         $controller->run();
     }

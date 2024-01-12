@@ -6,21 +6,6 @@ class Registry
 
 {
 
-
-    use traits\TSingleton;
-
-    protected static string $page = '';
-    protected static string $request = '';
-
-    protected static string $get = '';
-
-
-
-    protected static array $userRoles = [];
-    protected static array $errors = [
-        '404' => '',
-        '500' => '',
-    ];
     protected static array $settings = [
         'title' => '',
         'styles' => [
@@ -43,9 +28,7 @@ class Registry
             ['label' => '', 'string' => '']
         ],
     ];
-    protected static array $labels = [
-        'p__' => 'label'
-    ];
+
 
     /*
     *Key: 'name' - modul name. Required key
@@ -63,148 +46,18 @@ class Registry
     */
     protected static array $widgets = [];
 
-    public static function setPage($page)
-    {
-        self::$page = $page;
-        return 1;
-    }
-
-    public static function getPage(): string
-    {
-        return self::$page;
-    }
-
-    public static function setRequest($request)
-    {
-        self::$request = $request;
-        return 1;
-    }
-
-    public static function getRequest(): string
-    {
-        return self::$request;
-    }
-
-    public static function setGet($get)
-    {
-        self::$get = $get;
-        return 1;
-    }
-
-    public static function getGet(): string
-    {
-        return self::$get;
-    }
-
-    public static function addGet($add_get)
-    {
-        $get = self::getGet();
-        $get_arr_old = [];
-        if ($get != '') {
-            $get_arr_old = explode('&', self::getGet());
-        }
-        $get_arr_new = [];
-        foreach ($get_arr_old as $get) {
-            $get_arr = explode('=', $get);
-            if (isset($get_arr[0])) {
-                if (!isset($get_arr[1])) {
-                    $get_arr[1] = '';
-                }
-                $get_arr_new[$get_arr[0]] = $get_arr[1];
-            }
-        }
-        foreach ($add_get as $get) {
-            $get_arr = explode('=', $get);
-            if (isset($get_arr[0])) {
-                if (!isset($get_arr[1])) {
-                    $get_arr[1] = '';
-                }
-                $get_arr_new[$get_arr[0]] = $get_arr[1];
-            }
-        }
-        $get_arr = [];
-        foreach ($get_arr_new as $k=>$v) {
-            $get_str = $k . '=' . $v;
-            array_push($get_arr, $get_str);
-        }
-        self::setGet(implode('&', $get_arr));
-    }
-
-    public static function unsetGet($unset_get)
-    {
-        $get = self::getGet();
-        $get_arr_old = [];
-        if ($get != '') {
-            $get_arr_old = explode('&', self::getGet());
-        }
-        $get_arr_new = [];
-        foreach ($get_arr_old as $get) {
-            $get_arr = explode('=', $get);
-            if (isset($get_arr[0])) {
-                if (!isset($get_arr[1])) {
-                    $get_arr[1] = '';
-                }
-                $get_arr_new[$get_arr[0]] = $get_arr[1];
-            }
-        }
-        foreach ($unset_get as $get) {
-            $get_arr = explode('=', $get);
-            if (isset($get_arr[0])) {
-                if (!isset($get_arr[1])) {
-                    $get_arr_new = array_diff_key($get_arr_new, [$get_arr[0] => '']);
-                } else {
-                    if ($get_arr_new[$get_arr[0]] == $get_arr[1]) {
-                        $get_arr_new = array_diff_key($get_arr_new, [$get_arr[0] => $get_arr[1]]);
-                    }
-                }
-            }
-        }
-        $get_arr = [];
-        foreach ($get_arr_new as $k=>$v) {
-            $get_str = $k . '=' . $v;
-            array_push($get_arr, $get_str);
-        }
-        self::setGet(implode('&', $get_arr));
-    }
 
 
 
 
-    public static function addAccess($value)
-    {
-        foreach (self::$userRoles as $ur) {
-            if ($ur == $value) {
-                return 1;
-            }
-        }
-        self::$userRoles[] = $value;
-            return 2;
-    }
 
-    public static function getAccess(): array
-    {
-        return self::$userRoles;
-    }
 
-    public function cleanAccess()
-    {
-        self::$userRoles = [];
-    }
 
-    public static function setError($key, $value)
-    {
-        self::$errors[$key] = $value;
-    }
 
-    public static function getError($key)
-    {
-        return self::$errors[$key] ?? '';
-    }
 
-    public static function getErrors()
-    {
-        return self::$errors;
-    }
+
+
+
 
     public static function setSetting($key, $value)
     {
@@ -268,20 +121,11 @@ class Registry
         return self::$settings;
     }
 
-    public static function setLabel($key, $value)
-    {
-        self::$labels[$key] = $value;
-    }
 
-    public static function getLabel($key)
-    {
-        return self::$labels[$key] ?? null;
-    }
 
-    public static function getLabels()
-    {
-        return self::$labels;
-    }
+
+
+
 
     public static function setModul($name, $params)
     {
@@ -394,6 +238,9 @@ class Registry
             }
         }
     }
+
+
+
 
     public function getPrefix()
     {

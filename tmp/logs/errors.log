@@ -12,3 +12,4 @@
 [2024-01-10 21:15:46] Code: 0 | Message: Call to undefined method fl\Registry::setLanguage() | File: /opt/lampp/htdocs/fl24/vendor/fl/Router.php | Line: 103
 [2024-01-10 21:19:31] Code: 0 | Message: Cannot assign array to property fl\Registry::$language of type string | File: /opt/lampp/htdocs/fl24/vendor/fl/Registry.php | Line: 45
 [2024-01-10 21:20:01] Code: 0 | Message: Cannot assign array to property fl\Registry::$language of type string | File: /opt/lampp/htdocs/fl24/vendor/fl/Registry.php | Line: 45
+[2024-01-12 14:09:30] Code: 0 | Message: Call to undefined method fl\Registry::setGet() | File: /opt/lampp/htdocs/fl24/vendor/fl/Router.php | Line: 23
