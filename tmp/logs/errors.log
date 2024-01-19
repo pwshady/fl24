@@ -13,3 +13,73 @@
 [2024-01-10 21:19:31] Code: 0 | Message: Cannot assign array to property fl\Registry::$language of type string | File: /opt/lampp/htdocs/fl24/vendor/fl/Registry.php | Line: 45
 [2024-01-10 21:20:01] Code: 0 | Message: Cannot assign array to property fl\Registry::$language of type string | File: /opt/lampp/htdocs/fl24/vendor/fl/Registry.php | Line: 45
 [2024-01-12 14:09:30] Code: 0 | Message: Call to undefined method fl\Registry::setGet() | File: /opt/lampp/htdocs/fl24/vendor/fl/Router.php | Line: 23
+[2024-01-16 14:57:32] Code: 0 | Message: Access to undeclared static property fl\basic\controllers\PageController::$page_dir | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 15
+[2024-01-16 15:00:17] Code: 0 | Message: Call to undefined method fl\basic\controllers\PageController::getController() | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 22
+[2024-01-16 15:01:21] Code: 0 | Message: Class "fl\basic\controllers\App" not found | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 30
+[2024-01-16 15:02:45] Code: 0 | Message: Call to undefined method fl\basic\controllers\PageController::job() | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 43
+[2024-01-16 15:03:33] Code: 0 | Message: Call to undefined method fl\basic\controllers\PageController::runModel() | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 98
+[2024-01-16 15:05:55] Code: 0 | Message: Class "fl\basic\models\PageModel" not found | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 108
+[2024-01-16 17:07:44] Code: 0 | Message: Class "fl\basic\models\PageModel" not found | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 108
+[2024-01-16 17:09:35] Code: 64 | Message: Type of fl\basic\models\PageModel::$dir must be string (as in class fl\basic\models\Model) | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/models/PageModel.php | Line: 7
+[2024-01-16 17:11:21] Code: 0 | Message: Call to undefined method fl\basic\controllers\PageController::getAccess() | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 99
+[2024-01-16 17:14:08] Code: 0 | Message: Call to undefined method fl\basic\controllers\PageController::getAccess() | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 99
+[2024-01-16 17:14:49] Code: 0 | Message: Call to undefined method fl\Registry::getAccess() | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 114
+[2024-01-16 17:15:21] Code: 1 | Message: Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes) | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 65
+[2024-01-16 17:15:21] Code: 8 | Message: ob_end_clean(): Failed to delete buffer. No buffer to delete | File: /opt/lampp/htdocs/fl24/vendor/fl/ErrorHandler.php | Line: 49
+[2024-01-16 17:18:10] Code: 1 | Message: Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes) | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 65
+[2024-01-16 17:18:10] Code: 8 | Message: ob_end_clean(): Failed to delete buffer. No buffer to delete | File: /opt/lampp/htdocs/fl24/vendor/fl/ErrorHandler.php | Line: 49
+[2024-01-16 17:20:05] Code: 1 | Message: Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes) | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 65
+[2024-01-16 17:22:02] Code: 1 | Message: Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes) | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 65
+[2024-01-16 17:22:21] Code: 1 | Message: Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes) | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 65
+[2024-01-16 17:23:14] Code: 0 | Message: Call to undefined method fl\Registry::setSetting() | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/models/Model.php | Line: 48
+[2024-01-16 17:26:18] Code: 0 | Message: Access to undeclared static property fl\Registry::$settings | File: /opt/lampp/htdocs/fl24/vendor/fl/Registry.php | Line: 287
+[2024-01-16 17:27:17] Code: 0 | Message: fl\Registry::addSetting(): Return value must be of type int, none returned | File: /opt/lampp/htdocs/fl24/vendor/fl/Registry.php | Line: 339
+[2024-01-16 17:28:48] Code: 0 | Message: Class "fl\basic\controllers\MultiPageController" not found | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 59
+[2024-01-16 20:17:46] Code: 0 | Message: Class "fl\basic\controllers\MultiPageController" not found | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 59
+[2024-01-16 20:34:03] Code: 0 | Message: Cannot access offset of type string on string | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/models/PageModel.php | Line: 25
+[2024-01-16 20:35:07] Code: 0 | Message: Call to undefined method fl\Registry::setLabel() | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/models/PageModel.php | Line: 29
+[2024-01-16 20:36:35] Code: 0 | Message: array_key_exists(): Argument #2 ($array) must be of type array, string given | File: /opt/lampp/htdocs/fl24/vendor/fl/Registry.php | Line: 249
+[2024-01-16 20:37:49] Code: 0 | Message: Call to undefined method fl\Registry::getSetting() | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/MultiPageController.php | Line: 21
+[2024-01-16 20:40:16] Code: 0 | Message: Call to undefined method fl\basic\controllers\MultiPageController::createdView() | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/MultiPageController.php | Line: 23
+[2024-01-16 20:42:18] Code: 0 | Message: Call to undefined method fl\basic\controllers\PageController::createdModules() | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 140
+[2024-01-16 20:43:19] Code: 0 | Message: Call to undefined method fl\basic\controllers\PageController::createdModules() | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 140
+[2024-01-16 20:43:35] Code: 0 | Message: Call to undefined method fl\Registry::getModules() | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 150
+[2024-01-16 20:50:38] Code: 0 | Message: Call to undefined method fl\basic\controllers\PageController::createdWidgets() | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 141
+[2024-01-16 21:00:56] Code: 0 | Message: Call to undefined method fl\Registry::getWidgets() | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 180
+[2024-01-16 21:05:01] Code: 0 | Message: Access to undeclared static property fl\Registry::$widgets | File: /opt/lampp/htdocs/fl24/vendor/fl/Registry.php | Line: 462
+[2024-01-16 21:08:31] Code: 0 | Message: Class "fa\basic\views\PageView" not found | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 143
+[2024-01-16 21:14:37] Code: 0 | Message: Class "fa\basic\views\PageView" not found | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 143
+[2024-01-16 21:17:11] Code: 0 | Message: Class "fa\basic\views\PageView" not found | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 143
+[2024-01-16 21:18:30] Code: 0 | Message: Class "fl\basic\views\View" not found | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/views/PageView.php | Line: 7
+[2024-01-16 21:19:04] Code: 0 | Message: Too few arguments to function fl\basic\views\PageView::__construct(), 0 passed in /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php on line 143 and exactly 1 expected | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/views/PageView.php | Line: 9
+[2024-01-16 21:26:46] Code: 0 | Message: Too few arguments to function fl\basic\views\PageView::__construct(), 0 passed in /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php on line 143 and exactly 1 expected | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/views/PageView.php | Line: 9
+[2024-01-16 21:29:24] Code: 0 | Message: Call to undefined method fl\basic\controllers\PageController::render() | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 145
+[2024-01-16 21:34:31] Code: 0 | Message: Call to undefined method fl\basic\controllers\PageController::headerCreate() | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 207
+[2024-01-16 21:36:50] Code: 0 | Message: Cannot access offset of type string on string | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 216
+[2024-01-16 21:38:20] Code: 0 | Message: Call to undefined method fl\basic\controllers\PageController::createStrings() | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 226
+[2024-01-16 21:39:17] Code: 0 | Message: Call to undefined method fl\basic\controllers\PageController::createStyles() | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 227
+[2024-01-16 21:40:35] Code: 0 | Message: Call to undefined method fl\basic\controllers\PageController::getCss() | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 252
+[2024-01-16 21:42:55] Code: 0 | Message: Call to undefined method fl\basic\controllers\PageController::createScripts() | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 228
+[2024-01-16 21:43:40] Code: 0 | Message: Call to undefined method fl\basic\controllers\PageController::getJs() | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 276
+[2024-01-16 21:44:34] Code: 0 | Message: Call to undefined method fl\basic\controllers\PageController::footerCreate() | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 209
+[2024-01-16 21:58:06] Code: 0 | Message: Class "fl\basic\controllers\SinglePageController" not found | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 75
+[2024-01-17 00:36:06] Code: 1 | Message: Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes) | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 62
+[2024-01-17 00:53:33] Code: 0 | Message: Call to undefined method fl\Registry::addAccess() | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/models/Model.php | Line: 24
+[2024-01-17 00:54:05] Code: 0 | Message: Call to undefined method fl\Registry::cleanAccess() | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 121
+[2024-01-17 01:04:23] Code: 2 | Message: Undefined property: fl\basic\views\PageView::$dir | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/views/PageView.php | Line: 27
+[2024-01-17 01:07:03] Code: 2 | Message: require_once(/opt/lampp/htdocs/fl24errors/500\indexView.php): Failed to open stream: No such file or directory | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/views/PageView.php | Line: 27
+[2024-01-17 01:07:46] Code: 2 | Message: require_once(/opt/lampp/htdocs/fl24/errors/500/indexView.php): Failed to open stream: No such file or directory | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/views/PageView.php | Line: 27
+[2024-01-17 01:09:09] Code: 2 | Message: require_once(/opt/lampp/htdocs/fl24/pages//errors/500/indexView.php): Failed to open stream: No such file or directory | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/views/PageView.php | Line: 27
+[2024-01-17 01:11:25] Code: 1 | Message: Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes) | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 64
+[2024-01-17 01:14:19] Code: 2 | Message: require_once(/opt/lampp/htdocs/fl24/app/pages/errors/404/indexView.php): Failed to open stream: No such file or directory | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/views/PageView.php | Line: 27
+[2024-01-17 01:17:43] Code: 1 | Message: Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 24
+[2024-01-17 01:22:09] Code: 2 | Message: require_once(/opt/lampp/htdocs/fl24/app/pages/errors/404/View.php): Failed to open stream: No such file or directory | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/views/PageView.php | Line: 27
+[2024-01-17 01:47:44] Code: 2 | Message: require_once(/opt/lampp/htdocs/fl24/app/pages/errors/404/_/indexView.php): Failed to open stream: No such file or directory | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/views/PageView.php | Line: 35
+[2024-01-17 01:49:11] Code: 2 | Message: require_once(/opt/lampp/htdocs/fl24/app/pages/errors/404/_/indexView.php): Failed to open stream: No such file or directory | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/views/PageView.php | Line: 35
+[2024-01-17 01:49:27] Code: 2 | Message: require_once(/opt/lampp/htdocs/fl24/app/pages/errors/404/_/indexView.php): Failed to open stream: No such file or directory | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/views/PageView.php | Line: 35
+[2024-01-17 01:58:54] Code: 1 | Message: Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/models/Model.php | Line: 44
+[2024-01-17 01:59:41] Code: 1 | Message: Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/models/Model.php | Line: 44
+[2024-01-17 02:03:56] Code: 1 | Message: Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 24
+[2024-01-17 02:09:08] Code: 1 | Message: Allowed memory size of 536870912 bytes exhausted (tried to allocate 100732928 bytes) | File: /opt/lampp/htdocs/fl24/vendor/fl/func/debug.php | Line: 5
+[2024-01-17 02:10:03] Code: 1 | Message: Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes) | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 128
+[2024-01-17 02:12:46] Code: 1 | Message: Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes) | File: /opt/lampp/htdocs/fl24/vendor/fl/basic/controllers/PageController.php | Line: 128

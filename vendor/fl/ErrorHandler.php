@@ -46,7 +46,9 @@ class ErrorHandler
         $error = error_get_last();
         if (!empty($error) && $error['type'] & (E_ERROR | E_PARSE | E_COMPILE_ERROR | E_CORE_ERROR)) {
             $this->logError($error['type'], $error['message'], $error['file'], $error['line']);
-            ob_end_clean();
+            if (ob_get_status()) {
+                ob_end_clean();
+            }
             $this->displayError($error['type'], $error['message'], $error['file'], $error['line']);
         } else {
             ob_end_flush();

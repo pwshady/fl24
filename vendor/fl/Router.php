@@ -249,9 +249,6 @@ class Router
     //Run
     protected static function run()
     {
-        echo '3';
-        die;
-
         $controller = new basic\controllers\PageController('/app/pages', self::$page_arr, []);
         $controller->run();
     }
